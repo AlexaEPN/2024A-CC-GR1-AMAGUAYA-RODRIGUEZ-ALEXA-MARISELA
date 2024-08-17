@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "414217321719",
+    "project_id": "recycler-257ad",
+    "storage_bucket": "recycler-257ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414217321719:android:db2591dc3b2072d12267f2",
+        "android_client_info": {
+          "package_name": "com.example.tareagmail_v2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnqgqnMmJ1T1Vwwhq1eynH4a3pQygWw74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
