@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etSongName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="48dp"
+        android:ems="10"
+        android:hint="Nombre de la Canción"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etSongDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Duración"
+        android:height="48dp"
+        android:ems="10"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/etSongReproductions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="48dp"
+        android:ems="10"
+        android:hint="Reproducciones"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etSongLikes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="48dp"
+        android:ems="10"
+        android:hint="Me Gusta"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnSaveSong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar Canción" />
+
+
+</LinearLayout>

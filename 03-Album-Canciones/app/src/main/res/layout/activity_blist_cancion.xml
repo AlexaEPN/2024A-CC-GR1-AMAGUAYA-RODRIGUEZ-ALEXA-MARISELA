@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_layout_cancion"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlistCancion">
+
+    <Button
+        android:id="@+id/btn_crear_cacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/input_nombre_cancion"
+        app:layout_constraintTop_toBottomOf="@+id/lv_list_view_cancion"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <ListView
+        android:id="@+id/lv_list_view_cancion"
+        android:layout_width="345dp"
+        android:layout_height="464dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_crear_cacion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_ver_album"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <EditText
+        android:id="@+id/input_ver_album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/lv_list_view_cancion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <EditText
+        android:id="@+id/input_nombre_cancion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese cancion"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_crear_cacion"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lv_list_view_cancion"
+        app:layout_constraintVertical_bias="0.5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

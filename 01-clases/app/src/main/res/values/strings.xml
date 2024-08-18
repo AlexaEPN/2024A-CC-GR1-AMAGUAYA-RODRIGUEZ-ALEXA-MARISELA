@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">2024ACCGR1AMAR</string>
+    <string name="saludo">Hola Amigos</string>
+    <string-array name="String_array_opciones">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miercoles</item>
+    </string-array>
+    <string name="title_activity_google_maps_inicio">GoogleMapsInicio</string>
+</resources>
